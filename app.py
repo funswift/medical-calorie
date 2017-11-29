@@ -1,22 +1,23 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "http://calorie.slism.jp/200000/"
-res = requests.get(url)
-soup = BeautifulSoup(res.text, "lxml")
+base_url = "http://calorie.slism.jp/"
 
-def data_to_dict(table):
-    return { tr.find_all("td")[0].string : tr.find_all("td")[1].string for i,tr in enumerate(table.find_all("tr")) if i%2==0 }
- 
+class Calorieslism:
+    def __data_to_dict(self, table):
+        return { tr.find_all("td")[0].string : tr.find_all("td")[1].string for i,tr in enumerate(table.find_all("tr")) if i%2==0 }
 
-main_table = soup.find("div", id="mainData").table
-main_data = data_to_dict(main_table)
+    def get_dish_data(self, dish_id):
+        res = requests.get(base_url + str(dish_id))
+        self.soup = BeautifulSoup(res.text, "lxml")
 
-etc_table = soup.find("div", id="etc").table
-etc_data = data_to_dict(etc_table)
+        res_data = {}
+        for type_id in ["mainData", "etc", "fat"]:
+            table = self.soup.find("div", id=type_id).table
+            res_data.update(self.__data_to_dict(table))
+        
+        return res_data
 
-fat_table = soup.find("div", id="fat").table
-fat_data = data_to_dict(fat_table)
 
-data = {**main_data, **etc_data, **fat_data}
-print(data)
+res = Calorieslism().get_dish_data(dish_id=200000)
+print(res)
