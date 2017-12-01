@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from progressbar import ProgressBar, Percentage, Bar
+import re
 import json
 
 base_url = "http://calorie.slism.jp"
@@ -52,9 +53,10 @@ class Calorieslism:
 
         for i, li in enumerate(food_list.find_all("li")):
             dish_name = li.a.string
+            dish_img = re.sub("[a-z]+\.jpg", ".jpg", li.img["src"])
             dish_id = li.a["href"].strip("/")
             dish_data = self.get_dish_data(dish_id)
-            res.append({"name": dish_name, "nutritions": dish_data})
+            res.append({"name": dish_name, "img": dish_img, "nutritions": dish_data})
             per = int((i+1) * 100 / all_size)
             #progress.update(per)
 
