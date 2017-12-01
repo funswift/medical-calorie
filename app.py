@@ -46,7 +46,7 @@ class Calorieslism:
         soup = BeautifulSoup(res.text, "lxml")
 
         food_list =  soup.find("div", id="foodList")
-        res = {}
+        res = []
         all_size = len(food_list.find_all("li"))
         #progress = ProgressBar(widgets=[Percentage(), Bar()], maxval=100).start()
 
@@ -54,13 +54,13 @@ class Calorieslism:
             dish_name = li.a.string
             dish_id = li.a["href"].strip("/")
             dish_data = self.get_dish_data(dish_id)
-            res.update({dish_name: dish_data})
+            res.append({"name": dish_name, "nutritions": dish_data})
             per = int((i+1) * 100 / all_size)
             #progress.update(per)
 
         last_page =  int(self.get_last_page(page, soup))
         if page != last_page:
-            res.update(self.get_dish_list(category_id, page=page+1))
+            res.extend(self.get_dish_list(category_id, page=page+1))
 
         return res
 
