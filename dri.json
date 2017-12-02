@@ -1,0 +1,926 @@
+[
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "950"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "900"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "1300"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "1250"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "1550"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "1450"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "1850"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "1700"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "2250"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "2100"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "2600"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "2400"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "2850"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "2300"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "2650"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "1950"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "2650"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "2000"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "2450"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "1900"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "male",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "2200"
+  },
+  {
+    "nut_type": "energy",
+    "gender": "female",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "1750"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "20"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "20"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "25"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "25"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "35"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "30"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "40"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "40"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "50"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "50"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "60"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "55"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "65"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "55"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "60"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "50"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "60"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "50"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "60"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "50"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "male",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "60"
+  },
+  {
+    "nut_type": "protein",
+    "gender": "female",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "50"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "male",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "lipid",
+    "gender": "female",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "20〜30"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "-"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "7以下"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "7以下"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "7以下"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "7以下"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "7以下"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "7以下"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "male",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "7以下"
+  },
+  {
+    "nut_type": "saturated_fatty_acid",
+    "gender": "female",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "7以下"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "male",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "carbohydrate",
+    "gender": "female",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "50〜65"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "-"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 1,
+    "age_end": 2,
+    "val": "-"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "-"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 3,
+    "age_end": 5,
+    "val": "-"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "11以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 6,
+    "age_end": 7,
+    "val": "10以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "12以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 8,
+    "age_end": 9,
+    "val": "12以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "13以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 10,
+    "age_end": 11,
+    "val": "13以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "17以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 12,
+    "age_end": 14,
+    "val": "16以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "19以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 15,
+    "age_end": 17,
+    "val": "17以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "20以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 18,
+    "age_end": 29,
+    "val": "18以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "20以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 30,
+    "age_end": 49,
+    "val": "18以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "20以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 50,
+    "age_end": 69,
+    "val": "18以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "male",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "19以上"
+  },
+  {
+    "nut_type": "dietary_fiber",
+    "gender": "female",
+    "age_start": 70,
+    "age_end": 200,
+    "val": "17以上"
+  }
+]
